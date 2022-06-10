@@ -1,0 +1,141 @@
+.box-register{
+  width: 41.4466131vw;
+  height: 65.8472344vh;
+  background: rgba(255, 230, 153, 0.9);
+  margin-left: 7.86452354vw;
+  border-radius: 1.5em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 15vh;
+  
+}
+.containerr{
+  background-image: url('./pic/peakpx.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;  
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.nameh{
+  font-size: 2.29621125vw;
+  display: inline-block;
+  margin-top: 6.605333333%;
+  color: #FF9292;
+}
+#fon{
+  font-family: 'Bungee', cursive;
+}
+
+.loginn-block h1 {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+  
+}
+
+.loginn-block input {
+  width: 60%;
+  height: 7.19929763vh;
+  box-sizing: border-box;
+  border-radius: 1.25em;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: 'Bungee', cursive;
+  padding: 0 20px 0 50px;
+  outline: none;
+  
+}
+.loginn-block input#firstName {
+  background: rgba(255, 249, 182, 0.7) url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+  background-size: 16px 80px;
+  color: rgba(0, 0, 0, 0.26);
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+.loginn-block input#lastName {
+  background: rgba(255, 249, 182, 0.7) url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+  background-size: 16px 80px;
+  color: rgba(0, 0, 0, 0.26);
+  margin-bottom: 1%;
+}
+.loginn-block input#email {
+  background: rgba(255, 249, 182, 0.7) url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+  background-size: 16px 80px;
+  color: rgba(0, 0, 0, 0.26);
+  margin-bottom: 1%;
+}
+
+.loginn-block input#email:focus {
+  background: rgba(255, 249, 182, 0.7) url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.loginn-block input#password {
+  background: rgba(255, 249, 182, 0.7)url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+  background-size: 16px 80px;
+  color: rgba(0, 0, 0, 0.26);
+  margin-bottom: 3%;
+  
+}
+
+.loginn-block input#password:focus {
+  background: rgba(255, 249, 182, 0.7) url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+  background-size: 16px 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginn-block button {
+  width: 25%;
+  height: 7vh;
+  background: #FFF9B6;;
+  box-sizing: border-box;
+  border-radius: 3.75em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FF9292;;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 2%;
+  
+}
+
+.loginn-block button:hover {
+  background: #ff7b81;
+  color: #FFF9B6;
+}
+#fonn{
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media  screen and (max-width:550px){
+  .box-register{
+      width: 81.4466131vw;
+      height: 63.8472344vh;
+      background: rgba(255, 230, 153, 0.9);
+      margin-left: 7.86452354vw;
+      border-radius: 1.5em;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-top: 15vh;
+      margin-left: 9vw;
+  }
+  #fon.nameh{
+      font-size: 8.29621125vw;
+      display: inline-block;
+      margin-top: 8.605333333%;
+      color: #FF9292;
+      margin-bottom: 5%;
+  }
+  button#fon{
+      width: 30%;
+      margin-bottom: 8%;
+      margin-top: 3%;
+
+  }
+}

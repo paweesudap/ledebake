@@ -1,0 +1,89 @@
+.ds {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.dessert1 {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#piccc {
+    width: 80%;
+    height: auto;
+}
+#day {
+    grid-area: day;
+    display: inline-block;
+    
+}
+#star {
+    grid-area: star;
+    display: inline-block;
+}
+.dt {
+    font-size: 0.8vw;
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+#dname {
+    font-size: 1.15vw;
+    padding-bottom: 2%;
+}
+#go {
+    color: #000000;
+    border-radius: 5px;
+    background-color: #FFCCD2;
+    padding: 1%;
+    margin-top: 2%;
+    cursor: pointer;
+    border: none;
+}
+@media screen and (max-width:550px){
+    .dessert {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #titlee {
+        margin-top: 2%;
+    }
+    
+    #piccc {
+        width: 80%;
+        height: auto;
+    }
+    #day {
+        grid-area: day;
+        display: inline-block;
+        
+    }
+    #star {
+        grid-area: star;
+        display: inline-block;
+    }
+    .dt {
+        font-size: 1.5vw;
+        font-family: 'Bree Serif', serif;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    #dname {
+        font-size: 2.25vw;
+        padding-bottom: 2%;
+    }
+    #go {
+        color: #000000;
+        border-radius: 5px;
+        background-color: #FFCCD2;
+        padding: 1%;
+        margin-top: 0.6%;
+        cursor: pointer;
+        width: 30%;
+    }
+    .goto {
+        margin-top: -3%;
+    }
+}

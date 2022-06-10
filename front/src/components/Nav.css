@@ -1,0 +1,154 @@
+header{
+    z-index: 1;
+    display: flex;
+    position: top;
+    position: fixed;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 0px 0px;
+    height: 12vh;
+    width: 100vw;
+    background-color: rgba(255, 249, 182, 0.6);
+}
+.icon{
+    height: 12vh;
+    width: auto;
+    display: flex;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 0;
+}
+.ioc{
+    height: 12vh;
+    width: auto;
+    display: flex;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 0;
+}
+.noti{
+    height: 8vh;
+    width: auto;
+    display: flex;
+    margin-top: 2vh;
+    overflow: hidden;
+    padding: 0;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.notii{
+    height: 7vh;
+    width: auto;
+    display: flex;
+    margin-top: 2vh;
+    overflow: hidden;
+    padding: 0;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+#sizeic{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+}
+
+#f{
+    display: flex;
+}
+li{
+    padding: 0px 2.5vw;
+    margin-top: 4vh;
+    font-family: 'Bungee', cursive;
+    font-size: 1.815vw;
+    color: #FF9292;
+}
+a{
+    text-decoration: none;
+}
+a.active{
+    
+    background-color: FF9292;
+    opacity: 0.5;
+    padding-top: 0%;
+}
+ul{
+    justify-content: right;
+    padding-left: 20vw;
+    
+}
+.per{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2vw;
+}
+#logout{
+    font-family: 'Bungee', cursive;
+    border: none;
+    background-color: rgba(255, 249, 182, 1);
+    color: #FF9292;
+    font-size: 1.5vw;
+}
+@media only screen and (max-width:580px) {
+    header{
+        height: 8vh;
+        display: flex;
+    }
+    ul{
+        justify-content: right;
+        margin-left: 3vw;
+    }
+    .icon{
+       
+        height: 8vh;
+        width: auto;
+        display: flex;
+        padding: 0;
+    }
+    .ioc{
+        height: 8vh;
+        width: auto;
+        overflow: hidden;
+    }
+    #sizeic{
+        width: 100%;
+        height: 100%;
+    }
+    .notii{
+        height: 4vh;
+        width: auto;
+        display: flex;
+        margin-top: 2vh;
+        overflow: hidden;
+        padding: 0;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        text-align: right;
+    }
+
+    ul{
+        justify-content: right;
+        padding-left: 0;
+    }
+    li{
+        padding: 0px 1.5vw;
+        margin-top: 4vh;
+        font-family: 'Bungee', cursive;
+        font-size: 1.815vw;
+        color: #FF9292;
+    }
+    .per{
+        text-align: right !important;
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        
+    }
+    #f{
+        margin-top: -1vh;
+    }
+    #logout{
+        font-family: 'Bungee', cursive;
+        font-size: 1.8vw;
+    }
+}

@@ -1,0 +1,67 @@
+.profilecon {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr;
+    grid-template-areas: 
+    "profile filter"
+    "profile tag"
+    "profile recipe";
+}
+#pf {
+    grid-area: profile;
+    margin-top: 8vh;
+}
+#ft {
+    grid-area: filter;
+    margin-top: 20vh;
+}
+#tagg {
+    grid-area: tagg;
+    margin-bottom: 2%;
+    text-align: left;
+    margin-left: 5%;
+    height: 1%;
+    font-family: 'Bree Serif', serif;
+}
+#rc {
+    grid-area: recipe;
+    font-family: 'Bree Serif', serif;
+}
+.rcc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+@media screen and (max-width:550px){
+    .profilecon {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "filter"
+        "recipe";
+    }
+    #pf {
+        grid-area: profile;
+    }
+    #ft {
+        grid-area: filter;
+    }
+    #rc {
+        grid-area: recipe;
+        font-family: 'Bree Serif', serif;
+        text-align: center;
+    }
+    #titlee {
+        text-align: center;
+        padding-left: 5%;
+        font-size: 4vw;
+        margin-bottom: 3%;
+    }
+    .rcc {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        padding-left: 15%;
+    }
+}

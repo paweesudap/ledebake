@@ -1,0 +1,129 @@
+#bg{
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+footer{
+    z-index: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 0px 0px;
+    height: 12vh;
+    background-color: #FFECB1;
+}
+.icon{
+    height: 12vh;
+    width: auto;
+    display: flex;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 0;
+}
+#pad{
+    padding-left: 1vw;
+}
+.ioc{
+    height: 12vh;
+    width: auto;
+    display: flex;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 0;
+}
+.noti{
+    height: 7vh;
+    width: 7vh;
+    display: flex;
+    margin-top: 2vh;
+    overflow: hidden;
+    padding: 0;
+    padding-right: 0vw;
+    padding-left: 0vw;
+}
+#sizeic{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+}
+
+
+.per{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.set{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.alldet{
+    padding-left: 50vw;
+}
+#si{
+    padding: 0px 2.5vw;
+    margin-top: 4vh;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3vw;
+    margin-top: 5vh;
+}
+@media only screen and (max-width:580px) {
+    footer{
+        height: 8vh;
+        display: flex;
+    }
+    ul{
+        justify-content: right;
+        padding-left: 25vw;
+    }
+    .icon{
+       
+        height: 8vh;
+        width: auto;
+        display: flex;
+        padding: 0;
+    }
+    .ioc{
+        height: 8vh;
+        width: auto;
+        overflow: hidden;
+    }
+
+    .noti{
+        height: 4vh;
+        width: auto;
+        display: flex;
+        overflow: hidden;
+        padding: 0;
+        text-align: right;
+    }
+
+    ul{
+        justify-content: right;
+        padding-left: 0;
+    }
+    .per{
+        text-align: right !important;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        
+    }
+    #si{
+        padding: 0px 2.5vw;
+        margin-top: 4vh;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2.5vw;
+        margin-top: 3vh;
+    }
+    .set{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    .alldet{
+        padding-left: 12vw;
+    }
+}

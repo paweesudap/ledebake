@@ -1,0 +1,11 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+
+.App {
+  text-align: center;
+} */
+ .container{
+  width: 80%;
+  margin: 60px auto;
+} 

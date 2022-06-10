@@ -1,0 +1,148 @@
+.detail-con {
+    display: grid;
+    height: 76%;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "profile main"
+    "profile content";
+    margin-bottom: 20vh;
+    font-family: 'Bree Serif', serif;
+}
+
+main {
+    grid-area: main;
+    height: auto;
+}
+h2 {
+    text-align: left;
+    margin-top: 5%;
+}
+.dr {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas: 
+    "date rate";
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: black;
+    opacity: 35%;
+    font-size: 1.2vw;
+    text-align: left;
+}
+.detailpic {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "pic1 pic2";
+}
+#pic1 {
+    grid-area: pic1;
+    text-align: right;
+    padding-left: 40%;
+}
+#pic2 {
+    grid-area: pic2;
+    padding-right: 82.5%;
+}
+#donut1 {
+    width: 100%;
+    height: auto;
+}
+#donut2 {
+    width: 100%;
+    height: auto;
+}
+.text {
+    height: 80%;
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-right: 5%;
+    text-align: left;
+    overflow: visible;
+}
+#detail {
+    font-size: 1.5vw;
+}
+#allc{
+    margin-top: 20vh;
+}
+
+@media  screen and (max-width:550px){
+    .detail-con {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 2fr;
+        grid-template-areas: 
+        "main"
+        "content";
+    }
+    * {
+        font-family: 'Bree Serif', serif;
+    }
+    main {
+        grid-area: main;
+        height: fit-content;
+    }
+    h2 {
+        padding-left: 5%;
+        font-size: 5vw;
+    }
+    .dr {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: 0.5fr;
+        grid-template-areas: 
+        "date rate";
+        padding-left: 5%;
+        margin-bottom: 2%;
+        color: black;
+        opacity: 35%;
+        font-size: 3vw;
+    }
+    .detailpic {
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "pic1 pic2";
+    }
+    #pic1 {
+        grid-area: pic1;
+        text-align: right;
+        padding-left: 8%;
+        
+    }
+    #pic2 {
+        grid-area: pic2;
+        padding-right: 60%;
+        margin-left: 5%;
+        
+    }
+    #donut1 {
+        width: 100%;
+        height: auto;
+    }
+    #donut2 {
+        width: 100%;
+        height: auto;
+    }
+    .text {
+        height: fit-content;
+        padding: 6.5%;
+    }
+    #rate {
+        padding-left: 25%;
+    }
+    #detail {
+        font-size: 4vw;
+    }
+    #profile {
+        display:none;
+    }
+}

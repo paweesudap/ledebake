@@ -1,0 +1,32 @@
+.favcon {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-areas: 
+    "profile fav-bar"
+    "profile fav-box";
+}
+#fpf {
+    grid-area: profile;
+    margin-top: 8vh;
+}
+#fav {
+    grid-area: fav-bar;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 3vw;
+}
+#line {
+    margin-left: 2%;
+}
+#fc {
+    grid-area: fav-box;
+    font-family: 'Bree Serif', serif;
+}
+.fcc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+}
+
